@@ -16,13 +16,13 @@ public:
     Player() { // Default Constructor
         cout << "No args constructor called" << endl;
     }
-    Player(string name) {
+    Player(string name) { // Parameterized Constructor
         cout << "String arg constructor called" << endl;
     }
-    Player(string name, int health, int xp) {
+    Player(string name, int health, int xp) { // Multiple Parameterized Constructor
         cout << "Three args constructor called" << endl;
     }
-    ~Player() {
+    ~Player() { // Destructor
         cout << "Destructor called for " << name << endl;
     }
 };
