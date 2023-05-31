@@ -26,8 +26,9 @@ int main() {
     
     Solution Omarcus;
     
-    Omarcus.isValid("(]");
-    Omarcus.isValid("()");
+    // 0 = False and 1 = True
+    cout << Omarcus.isValid("(]") << endl;
+    cout << Omarcus.isValid("()") << endl;
     
     return 0;
 }
