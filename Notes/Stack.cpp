@@ -11,7 +11,7 @@ void printStack(stack<int> stack) {
 
 int main() {
 
-    stack<int>numbersStack; // creates a stack
+    stack<int>numbersStack; // creates a stack which is LIFO (Last In First Out) structure, think of it like stacking plates
     /* Stack Functions
     numbersStack.empty - displays if the stack is empty 
     numbersStack.size - displays the size of the stack
